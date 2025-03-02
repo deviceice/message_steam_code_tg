@@ -6,8 +6,8 @@ Example secret mafile
 
 Need only shared_secret!
 
-Example code -
 
-path_secret_maFile = './secret.maFile' path file
-if user.username == 'UR LOGIN TG':
-app = ApplicationBuilder().token("707********:AAEAH6kUvEl8txpTNv************** UR TOKEN TG BOT").build()
+Change code
+1. path_secret_maFile = './secret.maFile' path file
+2. if user.username == 'UR LOGIN TG':
+3. app = ApplicationBuilder().token("707********:AAEAH6kUvEl8txpTNv************** UR TOKEN TG BOT").build()
