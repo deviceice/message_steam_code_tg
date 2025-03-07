@@ -40,7 +40,7 @@ async def generate_one_time_code(shared_secret: str, timestamp: int = None) -> s
     return code
 
 
-async def start(update: Update) -> None:
+async def start(update, context) -> None:
     user = update.message.from_user
     if user.username == 'your login tg':
         steam_guard = await load_steam_guard()
